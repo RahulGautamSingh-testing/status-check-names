@@ -2,13 +2,5 @@
   "statusCheckNames": {
     "configValidation": "custom-string"
   },
-  "regexManagers": [
-    {
-      "fileMatch": ["config/options/index.ts"],
-      "matchStrings": [
-        "default: '(?<depName>ghcr.io/containerbase/sidecar):(?<currentValue>.*)'"
-      ],
-      "datasourceTemplate": "docker"
-    }
-  ]
+ "printConfig": true
 }
